@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875135295916",
+    "firebase_url": "https://stock-manager-a9db8.firebaseio.com",
+    "project_id": "stock-manager-a9db8",
+    "storage_bucket": "stock-manager-a9db8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875135295916:android:8e25d6f37a98df0e",
+        "android_client_info": {
+          "package_name": "com.ace.san"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875135295916-uff37aj6049decmod7irlcbn0en0mvfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ace.san",
+            "certificate_hash": "e2797655a59a4a650e3cd2e7083d1d54416117f0"
+          }
+        },
+        {
+          "client_id": "875135295916-4espi3152vnjhl1hmjqp1eultmrofek7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlcJw_56Ukmduun95ehYS79FXMcCGsZWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875135295916-4espi3152vnjhl1hmjqp1eultmrofek7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

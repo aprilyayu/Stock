@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ace.san">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/package_variant_closed"
+        android:label="Stock Manager"
+        android:roundIcon="@drawable/package_variant_closed"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.LoginActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Login.SignupActivity"
+            android:label="Register"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Login.ResetPasswordActivity"
+            android:label="Forgot Password"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add"
+            android:label="Add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".list"
+            android:label="List"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Transaction"
+            android:label="Transaction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Logout"
+            android:label="Log Out"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

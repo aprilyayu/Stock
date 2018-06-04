@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@drawable/zz"
+    android:id="@+id/splashscr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="225dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/package_variant_closed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:gravity="center"
+            android:text="STOCK MANAGER"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:fontFamily= "sans-serif-smallcaps"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="610dp"
+            android:gravity="bottom"
+            android:text="Aprily Ayu Anbar"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="12sp"
+            android:fontFamily= "sans-serif-smallcaps"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="623dp"
+            android:gravity="bottom"
+            android:text="Era Desti R"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="12sp"
+            android:fontFamily= "sans-serif-smallcaps"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="635dp"
+            android:gravity="bottom"
+            android:text="A3"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="12sp"
+            android:fontFamily= "sans-serif-smallcaps"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
